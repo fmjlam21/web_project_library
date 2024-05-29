@@ -316,12 +316,12 @@
   margin: 100px 0 0;
   display: flex;
   justify-content: center;
+  gap: 40px;
 }
 
 .step {
   display: flex;
   flex-basis: 220px;
-  gap: 40px;
   align-items: center;
   justify-content: space-between;
 }
@@ -348,6 +348,10 @@
   background-color: #1f1f1f;
   display: flex;
   flex-direction: column;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 .footer__columns {
@@ -358,15 +362,11 @@
 .footer__column_content_hours {
   display: flex;
   flex-direction: column;
-  margin-top: 60px;
   margin-right: 80px;
   margin-left: auto;
 }
 
 .footer__column_content_social {
-  margin-top: 60px;
-  margin-right: 80px;
-  margin-left: 80px;
   color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -375,8 +375,6 @@
 .footer__logo {
   width: 58px;
   height: 80px;
-  margin-left: 80px;
-  margin-top: 60px;
 }
 
 .footer__column-heading {
@@ -410,7 +408,5 @@
 
 .footer__copyright {
   margin-top: 100px;
-  margin-bottom: 60px;
-  margin-left: 80px;
   color: #ffffff;
 }
