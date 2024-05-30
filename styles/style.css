@@ -320,7 +320,6 @@
 }
 
 .step {
-  display: flex;
   flex-basis: 220px;
   align-items: center;
   justify-content: space-between;
